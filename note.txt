@@ -1,0 +1,36 @@
+Quiz App
+
+Backend
+Frontend-static
+Frontend + Backend
+
+backend:
+2 main things:
+>give the questions to the frontend
+>check whether the students selected ans is crct or not
+
+Quiz Application
+Frontend-------HTTP Request----->Node + Express-----> MongoDb----Quiz Question
+
+>what exactly does our application need?
+what data i have?
+where to store it?
+what operations to do?
+which APIs to use?
+what files ?
+which files communicate?
+
+Data : need quiz questions
+Each question:
+       >Question
+       >options
+       >Correct answer
+
+eg:
+what is js?
+1.pg lang
+2.db
+3.os
+4.browser
+
+answer:pg lang
