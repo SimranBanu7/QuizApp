@@ -35,15 +35,15 @@ import handleError from "../utils/handleError"
 import clsx from "clsx"
 
 // hardcoded sample data (in dynamic version this comes from the backend)
-const sampleQuestion = {
-  question: 'Which planet is known as the "Red Planet"?',
-  options: [
-    { id: 1, value: "Earth" },
-    { id: 2, value: "Mars" },
-    { id: 3, value: "Venus" },
-    { id: 4, value: "Jupiter" }
-  ]
-}
+// const sampleQuestion = {
+//   question: 'Which planet is known as the "Red Planet"?',
+//   options: [
+//     { id: 1, value: "Earth" },
+//     { id: 2, value: "Mars" },
+//     { id: 3, value: "Venus" },
+//     { id: 4, value: "Jupiter" }
+//   ]
+// }
 
 function NextArrowIcon() {
   return <img src={NextArrow} alt='Next Question' />

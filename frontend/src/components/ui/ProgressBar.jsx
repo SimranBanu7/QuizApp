@@ -27,7 +27,8 @@ const ProgressBar = () => {
       max={totalQuestions}
       className={clsx("progress-bar", isFinalQuestion && "final-question")}
     >
-      {((activeQuestionNumber / totalQuestions) * 100).toFixed(2)}%
+      
+      {progressText}
     </progress>
   )
 }
